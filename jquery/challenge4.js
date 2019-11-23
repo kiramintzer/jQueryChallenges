@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('#ch4form').submit(function(){
         var validInput = true;
        if ($("#fullname").val().length == 0){
+           console.log("empty name field")
             $("#nameerrormsg").css("display","block");validInput = false; 
        }
        else{
@@ -9,6 +10,7 @@ $(document).ready(function(){
        }
 
        if ($("#streetaddr").val().length == 0){
+           console.log("empty address field")
            $("#addrerrormsg").css("display","block");
            validInput = false;
        }

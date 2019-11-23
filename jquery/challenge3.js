@@ -4,6 +4,7 @@ $(document).ready(function(){
             return true
         } 
         alert("You must pick a fruit!");
+        console.log("no fruit picked")
             return false;
     })
     $('#ch3form').submit(function(){
@@ -12,6 +13,7 @@ $(document).ready(function(){
             return true
         }
         alert("You must pick a standing!");
+        console.log("no standing picked")
             return false;
     })
 })
